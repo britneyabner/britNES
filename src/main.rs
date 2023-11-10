@@ -1,5 +1,4 @@
-mod instruction_decode;
-mod load_store;
+mod cpu;
 
 fn main() {
 

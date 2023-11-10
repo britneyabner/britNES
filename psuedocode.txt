@@ -1,0 +1,8 @@
+instruction_decode(instruction) {
+    addressing_mode(instruction) {
+        is_branch(instruction);
+        group(instruction);
+    }
+    operation_type(instruction);
+    operand_location(instruction);
+}
